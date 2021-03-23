@@ -1,0 +1,277 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 62.5%;
+    font-family: Verdana, sans-serif;
+}
+
+.m-wrapper{
+    width: 60%;
+    margin: auto;    
+}
+
+
+.get-started{
+    margin-top: 8rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 70vh;
+}
+
+
+.get-started--header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 12vh;
+    margin-bottom: 0;
+}
+
+
+.get-started--header--nav a{
+    font-size: 1.6rem;
+    text-decoration: none;
+    color: #242d52;
+    margin: auto 1rem;
+}
+
+.btn {
+    display: inline-block;
+    font-size: 1.6rem;
+    border-radius: 3rem;
+    background-color: #f25f3c;
+    color: #fff;
+    text-decoration: none;
+    text-align: center;
+    padding: 0.7rem;
+    height: 3.5rem;
+    width: 14rem;
+}
+
+
+.get-started--left {
+    width: 50%;
+    font-size: 7rem;
+    color: #242d52;
+    margin-top: 10rem;
+}
+
+
+h1{
+    margin-bottom: 2rem;    
+}
+
+
+p {
+    line-height: 2.3rem;
+    font-size: 1.6rem;
+}
+
+
+.get-started--right{
+    width: 60%;
+}
+
+.get-started--right img{
+    transform: translateX(12%);
+    width: 100%;
+}
+
+.get-started--right img{
+    width: 100%;
+}
+
+
+.about-manage{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 60vh;
+}
+
+
+.about-manage--left{
+    font-size: 5rem;
+    width: 50%;
+}
+
+
+.about-manage--left h2{
+    margin-bottom: 2rem;    
+}
+
+.about-manage--right{
+    font-size: 7rem;
+    width: 50%;
+}
+
+.about-manage--right--cards--num{
+    font-size: 2rem;
+    margin-right: 3rem;
+    padding: 1rem;
+    border-radius: 3rem;
+    width: 20rem;
+    height: 100%;
+    text-align: center;
+    background-color: #f25f3c;
+    color: #fff;
+}
+
+.about-manage--right--cards{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 3rem;
+}
+
+
+.fw-wrapper{
+    width: 100%;
+}
+
+
+.fw-wrapper--customer-reviews {
+    font-size: 5rem;
+    text-align: center;
+    height: 70vh;
+}
+
+.fw-wrapper--customer-reviews h2{
+    margin-bottom: 15rem;
+}
+
+
+.fw-wrapper--customer-reviews--cards{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 2.5rem;
+}
+
+.fw-wrapper--customer-reviews--cards--card{
+    padding: 2rem;
+    background-color: #f4f4f4;
+}
+
+
+.fw-wrapper--customer-reviews--cards--card img{
+    transform:translateY(-50%);
+}
+
+
+.fw-wrapper--customer-reviews--cards--card h2{
+    margin-top: -6rem;
+    padding: 2rem;
+    background-color: #f4f4f4;
+}
+
+.fw-wrapper--customer-reviews--cards--card p{
+    margin-top: -16rem;
+    padding: 2rem;
+    background-color: #f4f4f4;
+}
+
+
+.tail-banner {
+    width: 100%;
+    font-size: 7rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 20vh;
+    padding: 2rem 0;
+    background-color: #f25f3c;
+    color: #fff;
+}
+
+.tail-banner-h1 {
+    width: 50%;
+    margin-left: 17rem;
+    text-align: left;
+}
+
+
+.tail-banner--get-started {
+    width: 50%;
+    margin-right: 17rem;
+    text-align: right;
+}
+
+.tail-banner .btn{
+    background-color: #fff;
+    color: #242d52 ;
+}
+
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    align-items: flex-start;    
+    font-size: 5rem;
+    background-color: black;
+    color: #fff;
+    height: 30vh;
+}
+
+
+
+.footer-logo-social{
+padding: 3rem;
+}
+
+
+footer a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: lighter;
+    margin: 1rem;
+}
+
+
+footer > div {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 5rem;
+}
+
+
+.footer-logo-social {
+    margin-top: 3rem;
+}
+
+
+.footer-logo-social svg{
+margin-bottom: 12rem;
+}
+
+
+
+footer input{
+    border-radius: 3rem;
+    border: none;
+    padding: 1rem;
+    text-align: center;
+    width: 67%;
+    margin-bottom: 9rem;
+}
+
+
+
+.footer-go{
+    margin-top: 5.5rem;
+}
+
+
+
+.footer-updates  .btn{
+    width: 6rem;
+} 
+
